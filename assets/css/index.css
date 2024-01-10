@@ -1,0 +1,101 @@
+/* common */
+a {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 0.8px;
+}
+
+h4 {
+  color: orangered;
+  font-size: 32px;
+}
+
+span {
+  font-size: 13px;
+}
+
+
+/* Navbar */
+.nav-btn {
+  background-color: orangered;
+  padding: 5px 35px;
+  border: none;
+  border-radius: 10px;
+}
+.nav-logo {
+  width: 30px;
+  height: auto;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 3px;
+}
+
+/* Top-section */
+.top-img {
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Popular Place Section & Explore Section */
+.view-text {
+  color: orangered;
+}
+.card {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition:  box-shadow .6s ease-out;
+}
+.card:hover {
+  box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .2s ease-in;
+}
+
+/* Explore Corner Section */
+.corner-img {
+  width: 100%;
+  height: auto;
+}
+.corner-icon {
+  color: red;
+  border: 3px;
+}
+
+/* Gallery Section */
+.first-img {
+  width: 400px;
+  height: 200px;
+}
+.second-img {
+  width: 400px;
+  height: 600px;
+}
+
+/* Company Section */
+.logo-img {
+  width: 50%;
+}
+
+/* Footer */
+.footer-icon {
+  font-size: 20px;
+}
+.footer-icon:hover {
+  color: orangered;
+}
+.text-reset {
+  font-size: 15px;
+}
+.contact-icon {
+  color: orangered;
+}
+.copyright-text {
+  font-size: 15px;
+  color: orangered;
+}
